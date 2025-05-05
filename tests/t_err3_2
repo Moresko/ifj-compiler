@@ -1,0 +1,7 @@
+require "ifj21"
+function foo(a : string)
+	a = 5
+end
+foo(3)
+
+-- Do stringu priradzujeme INT

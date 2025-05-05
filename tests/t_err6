@@ -1,0 +1,7 @@
+require "ifj21"
+
+function foo(a: integer, b: string)
+if(a > b) then
+else
+end
+end

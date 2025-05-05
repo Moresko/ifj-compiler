@@ -1,0 +1,4 @@
+require "ifj21"
+
+function main(a:integer, b:integer): integer integer
+end

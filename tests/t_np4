@@ -1,0 +1,11 @@
+require "ifj21"
+
+global foo : function(string) : string  -- Deklaracia funkcia
+
+function bar(param : string) : string   -- Definicia funkcie
+  return foo(param)
+end
+
+function foo(param:string):string   -- Definicia funkcie
+  return bar(param)
+end

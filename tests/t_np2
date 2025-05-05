@@ -1,0 +1,11 @@
+require "ifj21"
+
+function main()
+	local a : integer = 5
+	local b : integer = 10
+	local c : number = 51
+	a, b = 7, 5
+	write("ahoj", 5, a, "dzuris je kral\na moresko tiez\na kubo nie\tnepravda")
+end
+
+main()

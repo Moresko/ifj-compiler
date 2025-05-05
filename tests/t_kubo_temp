@@ -1,0 +1,17 @@
+require "ifj21"
+
+function vypis()
+  if nil then
+    write("If true part\n")
+  else
+    write("If false part\n")
+  end
+end
+
+function main()
+  local cislo : integer = 10
+  write(cislo)
+  vypis()
+end
+
+main()

@@ -1,0 +1,9 @@
+require "ifj21"
+ function main()
+while a >= 8
+return 0
+ end
+ local foo : number
+ local fo : nil = a + 10
+ return a>10
+ 

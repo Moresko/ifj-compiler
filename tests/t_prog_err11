@@ -1,0 +1,6 @@
+require "ifj21"
+
+function mian(a: string)
+foo: integer = a - 4
+foo a = 14
+end

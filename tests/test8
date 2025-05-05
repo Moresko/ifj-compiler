@@ -1,0 +1,22 @@
+--[["Toto by malo vytlacit znak 1: \001"
+"Toto by malo vytlacit znak 255: \255"
+
+"Toto by malo vytlacit znak 9: \009"
+
+"Toto by malo vytlacit d: \100"
+"Toto by malo vytlacit b: \098"
+
+"Toto by malo vytlacit x: \120"]]
+
+slovo
+
+2+#"ahoj"
+--[[
+integer 2
+operator +
+dlzka slova - 4
+]]
+
+#""		-- Dlzka tohoto retazca by mala byt 0
+
+#"45 a \098 asd"	-- Dlzka tohoto retazca by mala byt 10

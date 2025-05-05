@@ -1,0 +1,8 @@
+require "ifj21"
+
+function main() -- uzivatelska funkce bez parametru
+  local a : integer = tointeger()
+  local b : string = "ahoj"
+end
+
+main() -- prikaz hlavniho tela programu

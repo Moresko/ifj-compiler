@@ -1,0 +1,6 @@
+require "ifj21"
+ function main()
+while a >= 8 do 
+return 
+ end
+ end

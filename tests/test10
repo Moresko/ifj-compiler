@@ -1,0 +1,19 @@
+-- TEST NA ROZNE TYPT TOKENOV
+
+"ahoj ja som string" -- String
+
+1546	-- INT
+
+15.48	-- Decimal
+
+15e+16  -- Decimal
+
+154.4 	-- Decimal
+
+#	-- Hashtag
+
++-/*	-- 4 tokeny
+
+auto		-- ID
+
+do global number else if require end integer return function local string nil then while    -- Keywords

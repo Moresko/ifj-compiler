@@ -1,0 +1,7 @@
+require "ifj21"
+
+function main(): integer
+if a > 5 then
+else ,
+end
+end

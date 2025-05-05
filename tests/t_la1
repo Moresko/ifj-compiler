@@ -1,0 +1,17 @@
+require "ifj21"
+
+function main()
+	local a : integer = 5e		-- Za e musia nasledovat dalsie cisla
+	local 0e : number = 4.0		-- Id nemoze zacinat cislicou
+
+	local str1 : string = "ahoj "
+	local str2 : string = "svet"
+	local str3 : string = str1 . str2 		-- Nespravna konkatenacia za ktorou nejde este 1 bodka
+
+	local b : integer = 10
+	local c : number = 51
+	a, b = 7, 5
+	write("ahoj", 5, a, "dzuris je kral\na moresko tiez\na kubo nie\tnepravda")
+end
+
+main()

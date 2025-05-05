@@ -1,0 +1,12 @@
+-- Tento test sluzi pre urcenie komentarov
+
+global foo : function(string) --[[ Blokovy komentar]] : string
+--[[  -- Zakomentovanie funkcie
+function bar(param : string) : string
+  return foo (param)
+end
+]]
+--[ Tato funkcia zakomentovana nie je]]
+function foo(param:string):string --[[
+  ]]return bar(param)
+end
